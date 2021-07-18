@@ -1,0 +1,189 @@
+body {
+    color: #40514E;
+    font-weight: 600;
+    margin: 0;
+    /*centres elements wrt to parent i.e body*/
+    text-align: center;
+    /*it is like if some font style is not rendered next will be rendered as per availability **FONTSTACK.com*/
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  */
+    /* by using google font we can be sure the style will be rendered*/
+    font-family: 'Merriweather', serif;
+    line-height: 2; /*for making text more readable*/
+}
+
+h1 {
+    font-size: 5.625rem;
+    /*16px==100%==1em  */
+    /* line-height: 2; */
+    margin-bottom: -50px ; 
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+    padding-bottom: qppx;;
+    font-weight: 700;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-weight: 1100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+
+hr{
+   
+    width: 7%;
+    /* when one value is there its applied to all four side if 2 then 1st value top and bottom second left right if 3 1st to top 2nd to left right 3rd to botom */
+    border-style: dotted none none ; 
+    border-color: grey;
+    border-width: 5px;
+    margin: 100px auto;
+    /* border-top-style: dotted; */
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    /* margin: 0; */
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container {
+    margin:80px 0;
+}
+
+.Pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin:auto;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;;
+    border-radius: 100%;
+}
+
+
+.profile h2 {
+    /* margin-bottom: 10px;; */
+}
+
+.mountain {
+    margin-bottom: -10px;
+}
+
+
+
+.skill-row {
+    /* display: inline-block; */
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+    /* line-height: 2; */
+}
+
+.code-image {
+    /* border-radius: 100%; */
+    width: 25%;
+    float: left;/*to wrap the text right of the image*/
+    margin-right: 30px;
+    margin-top: -10px;;
+}
+
+.chess-image {
+  /* //border-radius: 100%; */
+    width: 25%;
+    float: right;/*to wrap the text text left of the image*/
+    margin: auto 50px 5px auto;
+    
+}
+
+
+.btn{
+    background: #66BFBF;
+    background-image:#66BFBF;
+   
+  
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: Brush Script MT;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .6rem;
+ text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .btn:hover {
+     background-color: rgb(116, 228, 228);
+     color: black;
+ }
+ .contact-me {
+     padding: 1.5rem;;
+ }
+ 
+ .contact-msg {
+   width: 40%;
+   margin:40px auto ;
+
+ }
+ .bottom-container {
+    background-color: #66BFBF;
+    margin-top: 2rem;
+    padding: 2rem;;
+     /* position: relative;  */
+     /* padding-top: 100px; */ */
+ }
+
+ .bottom-container p {
+     /* padding:10px 0; */
+     color: #EAF6F6;
+     font-weight: 600;
+ }
+
+
+
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    font-weight: 1200;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+}
+
+a:hover {
+    color:#EAF6F6;
+}
